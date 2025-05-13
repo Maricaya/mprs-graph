@@ -1,0 +1,5 @@
+digraph G {
+    "abort_BasicBlock_0_Head" -> "abort_raise_0"
+    "abort_raise_0" -> "abort_BasicBlock_0_Tail"
+    "abort_raise_0" -> "abort_raise_0"
+}

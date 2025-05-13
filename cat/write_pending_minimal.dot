@@ -1,0 +1,8 @@
+digraph G {
+    "write_pending_BasicBlock_0_Head" -> "write_pending_llvm.dbg.declare_0"
+    "write_pending_llvm.dbg.declare_0" -> "write_pending_BasicBlock_4_Tail"
+    "write_pending_llvm.dbg.declare_0" -> "write_pending_BasicBlock_2_Tail"
+    "write_pending_llvm.dbg.declare_0" -> "write_pending_llvm.dbg.declare_0"
+    "write_pending_llvm.dbg.declare_0" -> "write_pending_BasicBlock_3_Tail"
+    "write_pending_BasicBlock_3_Tail" -> "write_pending_BasicBlock_4_Tail"
+}

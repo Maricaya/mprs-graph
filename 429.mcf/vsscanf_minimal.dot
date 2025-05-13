@@ -1,0 +1,3 @@
+digraph G {
+    "vsscanf_BasicBlock_0_Head" -> "vsscanf_BasicBlock_0_Tail"
+}

@@ -1,0 +1,4 @@
+digraph G {
+    "_gl_alloc_nomem_BasicBlock_0_Head" -> "_gl_alloc_nomem___errno_location_0"
+    "_gl_alloc_nomem___errno_location_0" -> "_gl_alloc_nomem_BasicBlock_0_Tail"
+}

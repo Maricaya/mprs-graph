@@ -1,0 +1,12 @@
+digraph G {
+    "fadvise_llvm.dbg.declare_0" -> "fadvise_llvm.dbg.declare_0"
+    "fadvise_llvm.dbg.declare_0" -> "fadvise_BasicBlock_0_Tail"
+    "fadvise_BasicBlock_1_Tail" -> "fadvise_BasicBlock_2_Head"
+    "fadvise_BasicBlock_0_Tail" -> "fadvise_BasicBlock_1_Head"
+    "fadvise_BasicBlock_0_Tail" -> "fadvise_BasicBlock_2_Head"
+    "fadvise_BasicBlock_1_Head" -> "fadvise_fileno_1"
+    "fadvise_BasicBlock_0_Head" -> "fadvise_llvm.dbg.declare_0"
+    "fadvise_fileno_1" -> "fadvise_fdadvise_1"
+    "fadvise_fdadvise_1" -> "fadvise_BasicBlock_1_Tail"
+    "fadvise_BasicBlock_2_Head" -> "fadvise_BasicBlock_2_Tail"
+}

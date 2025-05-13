@@ -1,0 +1,4 @@
+digraph G {
+    "strchr_BasicBlock_0_Head" -> "strchr___strchrnul_0"
+    "strchr___strchrnul_0" -> "strchr_BasicBlock_0_Tail"
+}

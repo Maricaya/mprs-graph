@@ -1,0 +1,4 @@
+digraph G {
+    "close_stdout_set_file_name_BasicBlock_0_Head" -> "close_stdout_set_file_name_llvm.dbg.declare_0"
+    "close_stdout_set_file_name_llvm.dbg.declare_0" -> "close_stdout_set_file_name_BasicBlock_0_Tail"
+}

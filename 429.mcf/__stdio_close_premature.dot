@@ -1,0 +1,4 @@
+digraph G {
+    "__stdio_close___syscall_ret_0" -> "__stdio_close_BasicBlock_0_Tail"
+    "__stdio_close_BasicBlock_0_Head" -> "__stdio_close___syscall_ret_0"
+}

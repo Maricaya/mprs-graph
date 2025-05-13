@@ -1,0 +1,3 @@
+digraph G {
+    "strerror_BasicBlock_0_Head" -> "strerror_BasicBlock_0_Tail"
+}

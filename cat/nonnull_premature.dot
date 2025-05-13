@@ -1,0 +1,9 @@
+digraph G {
+    "nonnull_BasicBlock_0_Head" -> "nonnull_llvm.dbg.declare_0"
+    "nonnull_BasicBlock_0_Tail" -> "nonnull_BasicBlock_1_Head"
+    "nonnull_BasicBlock_0_Tail" -> "nonnull_BasicBlock_2_Head"
+    "nonnull_BasicBlock_1_Head" -> "nonnull_xalloc_die_1"
+    "nonnull_xalloc_die_1" -> "nonnull_BasicBlock_1_Tail"
+    "nonnull_BasicBlock_2_Head" -> "nonnull_BasicBlock_2_Tail"
+    "nonnull_llvm.dbg.declare_0" -> "nonnull_BasicBlock_0_Tail"
+}

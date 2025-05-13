@@ -1,0 +1,11 @@
+digraph G {
+    "c_tolower_BasicBlock_1_Tail" -> "c_tolower_BasicBlock_3_Head"
+    "c_tolower_BasicBlock_0_Tail" -> "c_tolower_BasicBlock_2_Head"
+    "c_tolower_BasicBlock_0_Tail" -> "c_tolower_BasicBlock_1_Head"
+    "c_tolower_BasicBlock_2_Tail" -> "c_tolower_BasicBlock_3_Head"
+    "c_tolower_BasicBlock_2_Head" -> "c_tolower_BasicBlock_2_Tail"
+    "c_tolower_BasicBlock_0_Head" -> "c_tolower_llvm.dbg.declare_0"
+    "c_tolower_llvm.dbg.declare_0" -> "c_tolower_BasicBlock_0_Tail"
+    "c_tolower_BasicBlock_1_Head" -> "c_tolower_BasicBlock_1_Tail"
+    "c_tolower_BasicBlock_3_Head" -> "c_tolower_BasicBlock_3_Tail"
+}

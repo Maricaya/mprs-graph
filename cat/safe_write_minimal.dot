@@ -1,0 +1,15 @@
+digraph G {
+    "safe_write_BasicBlock_6_Tail" -> "safe_write_BasicBlock_11_Tail"
+    "safe_write_BasicBlock_6_Tail" -> "safe_write_BasicBlock_12_Tail"
+    "safe_write_BasicBlock_11_Tail" -> "safe_write_BasicBlock_3_Tail"
+    "safe_write_BasicBlock_11_Tail" -> "safe_write_BasicBlock_12_Tail"
+    "safe_write_BasicBlock_3_Tail" -> "safe_write_BasicBlock_3_Tail"
+    "safe_write_BasicBlock_3_Tail" -> "safe_write_BasicBlock_12_Tail"
+    "safe_write_BasicBlock_3_Tail" -> "safe_write_BasicBlock_5_Head"
+    "safe_write_llvm.dbg.declare_0" -> "safe_write_BasicBlock_3_Tail"
+    "safe_write_llvm.dbg.declare_0" -> "safe_write_BasicBlock_12_Tail"
+    "safe_write_llvm.dbg.declare_0" -> "safe_write_llvm.dbg.declare_0"
+    "safe_write_BasicBlock_0_Head" -> "safe_write_llvm.dbg.declare_0"
+    "safe_write_BasicBlock_5_Head" -> "safe_write_BasicBlock_6_Tail"
+    "safe_write_BasicBlock_5_Head" -> "safe_write_BasicBlock_12_Tail"
+}

@@ -1,0 +1,8 @@
+digraph G {
+    "printf_vfprintf_0" -> "printf_llvm.va_end_0"
+    "printf_llvm.lifetime.start.p0i8_0" -> "printf_llvm.va_start_0"
+    "printf_BasicBlock_0_Head" -> "printf_llvm.lifetime.start.p0i8_0"
+    "printf_llvm.lifetime.end.p0i8_0" -> "printf_BasicBlock_0_Tail"
+    "printf_llvm.va_start_0" -> "printf_vfprintf_0"
+    "printf_llvm.va_end_0" -> "printf_llvm.lifetime.end.p0i8_0"
+}

@@ -1,0 +1,5 @@
+digraph G {
+    "wctomb_BasicBlock_0_Head" -> "wctomb_BasicBlock_2_Tail"
+    "wctomb_BasicBlock_0_Head" -> "wctomb_BasicBlock_1_Head"
+    "wctomb_BasicBlock_1_Head" -> "wctomb_BasicBlock_2_Tail"
+}

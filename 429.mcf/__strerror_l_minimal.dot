@@ -1,0 +1,12 @@
+digraph G {
+    "__strerror_l_BasicBlock_0_Head" -> "__strerror_l_BasicBlock_1_Tail"
+    "__strerror_l_BasicBlock_6_Head" -> "__strerror_l_BasicBlock_6_Head"
+    "__strerror_l_BasicBlock_6_Head" -> "__strerror_l_BasicBlock_7_Head"
+    "__strerror_l_BasicBlock_3_Tail" -> "__strerror_l_BasicBlock_8_Tail"
+    "__strerror_l_BasicBlock_3_Tail" -> "__strerror_l_BasicBlock_6_Head"
+    "__strerror_l_BasicBlock_7_Head" -> "__strerror_l_BasicBlock_8_Tail"
+    "__strerror_l_BasicBlock_7_Head" -> "__strerror_l_BasicBlock_6_Head"
+    "__strerror_l_BasicBlock_1_Tail" -> "__strerror_l_BasicBlock_6_Head"
+    "__strerror_l_BasicBlock_1_Tail" -> "__strerror_l_BasicBlock_3_Tail"
+    "__strerror_l_BasicBlock_1_Tail" -> "__strerror_l_BasicBlock_1_Tail"
+}

@@ -1,0 +1,6 @@
+digraph G {
+    "xstrdup_xmemdup_0" -> "xstrdup_BasicBlock_0_Tail"
+    "xstrdup_strlen_0" -> "xstrdup_xmemdup_0"
+    "xstrdup_llvm.dbg.declare_0" -> "xstrdup_strlen_0"
+    "xstrdup_BasicBlock_0_Head" -> "xstrdup_llvm.dbg.declare_0"
+}

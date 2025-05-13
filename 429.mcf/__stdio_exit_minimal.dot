@@ -1,0 +1,8 @@
+digraph G {
+    "__stdio_exit_BasicBlock_1_Tail" -> "__stdio_exit_BasicBlock_1_Tail"
+    "__stdio_exit_BasicBlock_1_Tail" -> "__stdio_exit_close_file_2"
+    "__stdio_exit_BasicBlock_0_Head" -> "__stdio_exit_BasicBlock_1_Tail"
+    "__stdio_exit_BasicBlock_0_Head" -> "__stdio_exit_close_file_2"
+    "__stdio_exit_close_file_2" -> "__stdio_exit_close_file_2"
+    "__stdio_exit_close_file_2" -> "__stdio_exit_BasicBlock_2_Tail"
+}

@@ -1,0 +1,6 @@
+digraph G {
+    "x2realloc_llvm.dbg.declare_0" -> "x2realloc_llvm.dbg.declare_0"
+    "x2realloc_llvm.dbg.declare_0" -> "x2realloc_x2nrealloc_0"
+    "x2realloc_BasicBlock_0_Head" -> "x2realloc_llvm.dbg.declare_0"
+    "x2realloc_x2nrealloc_0" -> "x2realloc_BasicBlock_0_Tail"
+}

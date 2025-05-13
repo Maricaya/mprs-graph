@@ -1,0 +1,5 @@
+digraph G {
+    "xalloc_die_abort_0" -> "xalloc_die_BasicBlock_0_Tail"
+    "xalloc_die_error_0" -> "xalloc_die_abort_0"
+    "xalloc_die_BasicBlock_0_Head" -> "xalloc_die_error_0"
+}

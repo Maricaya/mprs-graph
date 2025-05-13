@@ -1,0 +1,6 @@
+digraph G {
+    "exit___stdio_exit_0" -> "exit__Exit_0"
+    "exit__Exit_0" -> "exit_BasicBlock_0_Tail"
+    "exit_BasicBlock_0_Head" -> "exit_libc_exit_fini_0"
+    "exit_libc_exit_fini_0" -> "exit___stdio_exit_0"
+}

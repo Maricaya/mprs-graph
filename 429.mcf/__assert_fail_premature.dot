@@ -1,0 +1,6 @@
+digraph G {
+    "__assert_fail_BasicBlock_0_Head" -> "__assert_fail_fprintf_0"
+    "__assert_fail_fflush_0" -> "__assert_fail_abort_0"
+    "__assert_fail_abort_0" -> "__assert_fail_BasicBlock_0_Tail"
+    "__assert_fail_fprintf_0" -> "__assert_fail_fflush_0"
+}

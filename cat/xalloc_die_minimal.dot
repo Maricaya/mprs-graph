@@ -1,0 +1,3 @@
+digraph G {
+    "xalloc_die_BasicBlock_0_Head" -> "xalloc_die_BasicBlock_0_Tail"
+}

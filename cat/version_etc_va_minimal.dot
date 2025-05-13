@@ -1,0 +1,13 @@
+digraph G {
+    "version_etc_va_llvm.dbg.declare_0" -> "version_etc_va_llvm.dbg.declare_0"
+    "version_etc_va_llvm.dbg.declare_0" -> "version_etc_va_BasicBlock_4_Head"
+    "version_etc_va_llvm.dbg.declare_0" -> "version_etc_va_BasicBlock_3_Head"
+    "version_etc_va_llvm.dbg.declare_0" -> "version_etc_va_BasicBlock_6_Tail"
+    "version_etc_va_BasicBlock_4_Head" -> "version_etc_va_BasicBlock_6_Tail"
+    "version_etc_va_BasicBlock_3_Head" -> "version_etc_va_BasicBlock_6_Tail"
+    "version_etc_va_BasicBlock_0_Head" -> "version_etc_va_llvm.dbg.declare_0"
+    "version_etc_va_BasicBlock_6_Tail" -> "version_etc_va_BasicBlock_9_Tail"
+    "version_etc_va_BasicBlock_6_Tail" -> "version_etc_va_BasicBlock_4_Head"
+    "version_etc_va_BasicBlock_6_Tail" -> "version_etc_va_BasicBlock_3_Head"
+    "version_etc_va_BasicBlock_6_Tail" -> "version_etc_va_BasicBlock_6_Tail"
+}

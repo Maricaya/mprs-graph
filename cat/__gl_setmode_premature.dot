@@ -1,0 +1,5 @@
+digraph G {
+    "__gl_setmode_llvm.dbg.declare_0" -> "__gl_setmode_llvm.dbg.declare_0"
+    "__gl_setmode_llvm.dbg.declare_0" -> "__gl_setmode_BasicBlock_0_Tail"
+    "__gl_setmode_BasicBlock_0_Head" -> "__gl_setmode_llvm.dbg.declare_0"
+}

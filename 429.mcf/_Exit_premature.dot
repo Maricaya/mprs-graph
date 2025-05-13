@@ -1,0 +1,6 @@
+digraph G {
+    "_Exit_BasicBlock_0_Head" -> "_Exit_BasicBlock_0_Tail"
+    "_Exit_BasicBlock_1_Head" -> "_Exit_BasicBlock_1_Tail"
+    "_Exit_BasicBlock_0_Tail" -> "_Exit_BasicBlock_1_Head"
+    "_Exit_BasicBlock_1_Tail" -> "_Exit_BasicBlock_1_Head"
+}

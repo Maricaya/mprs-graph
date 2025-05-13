@@ -1,0 +1,13 @@
+digraph G {
+    "scalbnl_llvm.experimental.constrained.fmul.f80_2" -> "scalbnl_BasicBlock_6_Tail"
+    "scalbnl_BasicBlock_0_Head" -> "scalbnl_llvm.experimental.constrained.fmul.f80_4"
+    "scalbnl_BasicBlock_0_Head" -> "scalbnl_BasicBlock_6_Tail"
+    "scalbnl_BasicBlock_0_Head" -> "scalbnl_llvm.experimental.constrained.fmul.f80_1"
+    "scalbnl_llvm.experimental.constrained.fmul.f80_5" -> "scalbnl_llvm.experimental.constrained.fmul.f80_5"
+    "scalbnl_llvm.experimental.constrained.fmul.f80_5" -> "scalbnl_BasicBlock_6_Tail"
+    "scalbnl_llvm.experimental.constrained.fmul.f80_4" -> "scalbnl_llvm.experimental.constrained.fmul.f80_5"
+    "scalbnl_llvm.experimental.constrained.fmul.f80_4" -> "scalbnl_llvm.experimental.constrained.fmul.f80_4"
+    "scalbnl_llvm.experimental.constrained.fmul.f80_4" -> "scalbnl_BasicBlock_6_Tail"
+    "scalbnl_llvm.experimental.constrained.fmul.f80_1" -> "scalbnl_llvm.experimental.constrained.fmul.f80_2"
+    "scalbnl_llvm.experimental.constrained.fmul.f80_1" -> "scalbnl_BasicBlock_6_Tail"
+}

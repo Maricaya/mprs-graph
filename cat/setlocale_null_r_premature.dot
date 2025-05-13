@@ -1,0 +1,6 @@
+digraph G {
+    "setlocale_null_r_setlocale_null_unlocked_0" -> "setlocale_null_r_BasicBlock_0_Tail"
+    "setlocale_null_r_BasicBlock_0_Head" -> "setlocale_null_r_llvm.dbg.declare_0"
+    "setlocale_null_r_llvm.dbg.declare_0" -> "setlocale_null_r_setlocale_null_unlocked_0"
+    "setlocale_null_r_llvm.dbg.declare_0" -> "setlocale_null_r_llvm.dbg.declare_0"
+}

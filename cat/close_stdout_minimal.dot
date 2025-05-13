@@ -1,0 +1,12 @@
+digraph G {
+    "close_stdout_BasicBlock_0_Head" -> "close_stdout_BasicBlock_6_Tail"
+    "close_stdout_BasicBlock_0_Head" -> "close_stdout_BasicBlock_9_Tail"
+    "close_stdout_BasicBlock_0_Head" -> "close_stdout_BasicBlock_8_Tail"
+    "close_stdout_BasicBlock_0_Head" -> "close_stdout_BasicBlock_2_Head"
+    "close_stdout_BasicBlock_0_Head" -> "close_stdout_BasicBlock_4_Head"
+    "close_stdout_BasicBlock_2_Head" -> "close_stdout_BasicBlock_6_Tail"
+    "close_stdout_BasicBlock_2_Head" -> "close_stdout_BasicBlock_9_Tail"
+    "close_stdout_BasicBlock_2_Head" -> "close_stdout_BasicBlock_8_Tail"
+    "close_stdout_BasicBlock_2_Head" -> "close_stdout_BasicBlock_4_Head"
+    "close_stdout_BasicBlock_4_Head" -> "close_stdout_BasicBlock_6_Tail"
+}

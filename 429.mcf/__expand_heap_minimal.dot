@@ -1,0 +1,18 @@
+digraph G {
+    "__expand_heap_BasicBlock_0_Head" -> "__expand_heap_BasicBlock_12_Tail"
+    "__expand_heap_BasicBlock_0_Head" -> "__expand_heap_BasicBlock_3_Tail"
+    "__expand_heap_BasicBlock_0_Head" -> "__expand_heap_BasicBlock_6_Tail"
+    "__expand_heap_BasicBlock_0_Head" -> "__expand_heap_BasicBlock_7_Tail"
+    "__expand_heap_BasicBlock_0_Head" -> "__expand_heap_BasicBlock_10_Tail"
+    "__expand_heap_BasicBlock_3_Tail" -> "__expand_heap_BasicBlock_6_Tail"
+    "__expand_heap_BasicBlock_3_Tail" -> "__expand_heap_BasicBlock_7_Tail"
+    "__expand_heap_BasicBlock_3_Tail" -> "__expand_heap_BasicBlock_10_Tail"
+    "__expand_heap_BasicBlock_6_Tail" -> "__expand_heap_BasicBlock_10_Tail"
+    "__expand_heap_BasicBlock_7_Tail" -> "__expand_heap_BasicBlock_8_Tail"
+    "__expand_heap_BasicBlock_7_Tail" -> "__expand_heap_BasicBlock_10_Tail"
+    "__expand_heap_BasicBlock_8_Tail" -> "__expand_heap_BasicBlock_12_Tail"
+    "__expand_heap_BasicBlock_8_Tail" -> "__expand_heap_BasicBlock_10_Tail"
+    "__expand_heap_BasicBlock_11_Head" -> "__expand_heap_BasicBlock_12_Tail"
+    "__expand_heap_BasicBlock_10_Tail" -> "__expand_heap_BasicBlock_12_Tail"
+    "__expand_heap_BasicBlock_10_Tail" -> "__expand_heap_BasicBlock_11_Head"
+}

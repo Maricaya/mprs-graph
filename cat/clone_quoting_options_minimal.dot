@@ -1,0 +1,9 @@
+digraph G {
+    "clone_quoting_options_llvm.dbg.declare_0" -> "clone_quoting_options_llvm.dbg.declare_0"
+    "clone_quoting_options_llvm.dbg.declare_0" -> "clone_quoting_options___errno_location_0"
+    "clone_quoting_options_llvm.dbg.declare_0" -> "clone_quoting_options_BasicBlock_3_Tail"
+    "clone_quoting_options_llvm.dbg.declare_0" -> "clone_quoting_options_BasicBlock_1_Tail"
+    "clone_quoting_options___errno_location_0" -> "clone_quoting_options_llvm.dbg.declare_0"
+    "clone_quoting_options_BasicBlock_0_Head" -> "clone_quoting_options_llvm.dbg.declare_0"
+    "clone_quoting_options_BasicBlock_1_Tail" -> "clone_quoting_options_BasicBlock_3_Tail"
+}

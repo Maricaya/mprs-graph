@@ -1,0 +1,3 @@
+digraph G {
+    "xmalloc_BasicBlock_0_Head" -> "xmalloc_BasicBlock_0_Tail"
+}

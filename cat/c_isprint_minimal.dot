@@ -1,0 +1,5 @@
+digraph G {
+    "c_isprint_BasicBlock_0_Head" -> "c_isprint_BasicBlock_3_Tail"
+    "c_isprint_BasicBlock_0_Head" -> "c_isprint_BasicBlock_1_Head"
+    "c_isprint_BasicBlock_1_Head" -> "c_isprint_BasicBlock_3_Tail"
+}

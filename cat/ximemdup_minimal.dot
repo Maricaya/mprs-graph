@@ -1,0 +1,5 @@
+digraph G {
+    "ximemdup_llvm.dbg.declare_0" -> "ximemdup_llvm.dbg.declare_0"
+    "ximemdup_llvm.dbg.declare_0" -> "ximemdup_BasicBlock_0_Tail"
+    "ximemdup_BasicBlock_0_Head" -> "ximemdup_llvm.dbg.declare_0"
+}

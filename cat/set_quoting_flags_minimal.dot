@@ -1,0 +1,7 @@
+digraph G {
+    "set_quoting_flags_BasicBlock_0_Head" -> "set_quoting_flags_llvm.dbg.declare_0"
+    "set_quoting_flags_llvm.dbg.declare_0" -> "set_quoting_flags_llvm.dbg.declare_0"
+    "set_quoting_flags_llvm.dbg.declare_0" -> "set_quoting_flags_BasicBlock_1_Head"
+    "set_quoting_flags_llvm.dbg.declare_0" -> "set_quoting_flags_BasicBlock_2_Tail"
+    "set_quoting_flags_BasicBlock_1_Head" -> "set_quoting_flags_BasicBlock_2_Tail"
+}

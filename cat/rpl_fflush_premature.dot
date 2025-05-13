@@ -1,0 +1,18 @@
+digraph G {
+    "rpl_fflush_fflush_3" -> "rpl_fflush_BasicBlock_3_Tail"
+    "rpl_fflush_fflush_2" -> "rpl_fflush_BasicBlock_2_Tail"
+    "rpl_fflush_BasicBlock_3_Tail" -> "rpl_fflush_BasicBlock_4_Head"
+    "rpl_fflush_clear_ungetc_buffer_preserving_position_3" -> "rpl_fflush_fflush_3"
+    "rpl_fflush_BasicBlock_4_Head" -> "rpl_fflush_BasicBlock_4_Tail"
+    "rpl_fflush_BasicBlock_0_Head" -> "rpl_fflush_llvm.dbg.declare_0"
+    "rpl_fflush_BasicBlock_2_Tail" -> "rpl_fflush_BasicBlock_4_Head"
+    "rpl_fflush_llvm.dbg.declare_0" -> "rpl_fflush_BasicBlock_0_Tail"
+    "rpl_fflush_BasicBlock_2_Head" -> "rpl_fflush_fflush_2"
+    "rpl_fflush_BasicBlock_1_Head" -> "rpl_fflush___freading_1"
+    "rpl_fflush___freading_1" -> "rpl_fflush_BasicBlock_1_Tail"
+    "rpl_fflush_BasicBlock_1_Tail" -> "rpl_fflush_BasicBlock_2_Head"
+    "rpl_fflush_BasicBlock_1_Tail" -> "rpl_fflush_BasicBlock_3_Head"
+    "rpl_fflush_BasicBlock_0_Tail" -> "rpl_fflush_BasicBlock_2_Head"
+    "rpl_fflush_BasicBlock_0_Tail" -> "rpl_fflush_BasicBlock_1_Head"
+    "rpl_fflush_BasicBlock_3_Head" -> "rpl_fflush_clear_ungetc_buffer_preserving_position_3"
+}

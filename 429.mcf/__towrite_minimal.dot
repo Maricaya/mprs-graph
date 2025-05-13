@@ -1,0 +1,5 @@
+digraph G {
+    "__towrite_BasicBlock_0_Head" -> "__towrite_BasicBlock_3_Tail"
+    "__towrite_BasicBlock_0_Head" -> "__towrite_BasicBlock_1_Tail"
+    "__towrite_BasicBlock_1_Tail" -> "__towrite_BasicBlock_3_Tail"
+}

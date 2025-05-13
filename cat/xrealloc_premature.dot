@@ -1,0 +1,17 @@
+digraph G {
+    "xrealloc_BasicBlock_3_Head" -> "xrealloc_xalloc_die_3"
+    "xrealloc_BasicBlock_2_Tail" -> "xrealloc_BasicBlock_3_Head"
+    "xrealloc_BasicBlock_2_Tail" -> "xrealloc_BasicBlock_4_Head"
+    "xrealloc_BasicBlock_4_Head" -> "xrealloc_BasicBlock_4_Tail"
+    "xrealloc_BasicBlock_2_Head" -> "xrealloc_BasicBlock_2_Tail"
+    "xrealloc_BasicBlock_1_Tail" -> "xrealloc_BasicBlock_3_Head"
+    "xrealloc_BasicBlock_1_Tail" -> "xrealloc_BasicBlock_2_Head"
+    "xrealloc_xalloc_die_3" -> "xrealloc_BasicBlock_3_Tail"
+    "xrealloc_BasicBlock_0_Tail" -> "xrealloc_BasicBlock_4_Head"
+    "xrealloc_BasicBlock_0_Tail" -> "xrealloc_BasicBlock_1_Head"
+    "xrealloc_BasicBlock_1_Head" -> "xrealloc_BasicBlock_1_Tail"
+    "xrealloc_realloc_0" -> "xrealloc_BasicBlock_0_Tail"
+    "xrealloc_llvm.dbg.declare_0" -> "xrealloc_realloc_0"
+    "xrealloc_llvm.dbg.declare_0" -> "xrealloc_llvm.dbg.declare_0"
+    "xrealloc_BasicBlock_0_Head" -> "xrealloc_llvm.dbg.declare_0"
+}

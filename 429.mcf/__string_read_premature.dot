@@ -1,0 +1,5 @@
+digraph G {
+    "__string_read_memchr_0" -> "__string_read_memcpy_0"
+    "__string_read_BasicBlock_0_Head" -> "__string_read_memchr_0"
+    "__string_read_memcpy_0" -> "__string_read_BasicBlock_0_Tail"
+}

@@ -1,0 +1,9 @@
+digraph G {
+    "hard_locale_BasicBlock_0_Head" -> "hard_locale_llvm.dbg.declare_0"
+    "hard_locale_llvm.dbg.declare_0" -> "hard_locale_llvm.dbg.declare_0"
+    "hard_locale_llvm.dbg.declare_0" -> "hard_locale_BasicBlock_5_Tail"
+    "hard_locale_llvm.dbg.declare_0" -> "hard_locale_BasicBlock_4_Head"
+    "hard_locale_llvm.dbg.declare_0" -> "hard_locale_BasicBlock_3_Tail"
+    "hard_locale_BasicBlock_4_Head" -> "hard_locale_BasicBlock_5_Tail"
+    "hard_locale_BasicBlock_3_Tail" -> "hard_locale_BasicBlock_4_Head"
+}

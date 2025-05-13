@@ -1,0 +1,5 @@
+digraph G {
+    "xcharalloc_llvm.dbg.declare_0" -> "xcharalloc_xmalloc_0"
+    "xcharalloc_xmalloc_0" -> "xcharalloc_BasicBlock_0_Tail"
+    "xcharalloc_BasicBlock_0_Head" -> "xcharalloc_llvm.dbg.declare_0"
+}

@@ -1,0 +1,6 @@
+digraph G {
+    "xnrealloc_BasicBlock_0_Head" -> "xnrealloc_llvm.dbg.declare_0"
+    "xnrealloc_llvm.dbg.declare_0" -> "xnrealloc_llvm.dbg.declare_0"
+    "xnrealloc_llvm.dbg.declare_0" -> "xnrealloc_xreallocarray_0"
+    "xnrealloc_xreallocarray_0" -> "xnrealloc_BasicBlock_0_Tail"
+}

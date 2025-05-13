@@ -1,0 +1,11 @@
+digraph G {
+    "c_strcasecmp_c_tolower_3" -> "c_strcasecmp_BasicBlock_8_Tail"
+    "c_strcasecmp_c_tolower_3" -> "c_strcasecmp_c_tolower_3"
+    "c_strcasecmp_c_tolower_3" -> "c_strcasecmp_BasicBlock_6_Tail"
+    "c_strcasecmp_llvm.dbg.declare_0" -> "c_strcasecmp_BasicBlock_8_Tail"
+    "c_strcasecmp_llvm.dbg.declare_0" -> "c_strcasecmp_c_tolower_3"
+    "c_strcasecmp_llvm.dbg.declare_0" -> "c_strcasecmp_llvm.dbg.declare_0"
+    "c_strcasecmp_BasicBlock_6_Tail" -> "c_strcasecmp_BasicBlock_8_Tail"
+    "c_strcasecmp_BasicBlock_6_Tail" -> "c_strcasecmp_c_tolower_3"
+    "c_strcasecmp_BasicBlock_0_Head" -> "c_strcasecmp_llvm.dbg.declare_0"
+}

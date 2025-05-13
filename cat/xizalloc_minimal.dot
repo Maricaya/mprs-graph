@@ -1,0 +1,3 @@
+digraph G {
+    "xizalloc_BasicBlock_0_Head" -> "xizalloc_BasicBlock_0_Tail"
+}

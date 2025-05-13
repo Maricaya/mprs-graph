@@ -1,0 +1,13 @@
+digraph G {
+    "imalloc__gl_alloc_nomem_2" -> "imalloc_BasicBlock_2_Tail"
+    "imalloc_BasicBlock_1_Tail" -> "imalloc_BasicBlock_3_Head"
+    "imalloc_malloc_1" -> "imalloc_BasicBlock_1_Tail"
+    "imalloc_BasicBlock_0_Tail" -> "imalloc_BasicBlock_1_Head"
+    "imalloc_BasicBlock_0_Tail" -> "imalloc_BasicBlock_2_Head"
+    "imalloc_BasicBlock_1_Head" -> "imalloc_malloc_1"
+    "imalloc_BasicBlock_2_Tail" -> "imalloc_BasicBlock_3_Head"
+    "imalloc_BasicBlock_0_Head" -> "imalloc_llvm.dbg.declare_0"
+    "imalloc_llvm.dbg.declare_0" -> "imalloc_BasicBlock_0_Tail"
+    "imalloc_BasicBlock_2_Head" -> "imalloc__gl_alloc_nomem_2"
+    "imalloc_BasicBlock_3_Head" -> "imalloc_BasicBlock_3_Tail"
+}

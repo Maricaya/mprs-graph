@@ -1,0 +1,3 @@
+digraph G {
+    "quotearg_BasicBlock_0_Head" -> "quotearg_BasicBlock_0_Tail"
+}

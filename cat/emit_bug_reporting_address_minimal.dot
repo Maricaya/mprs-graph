@@ -1,0 +1,5 @@
+digraph G {
+    "emit_bug_reporting_address_printf_0" -> "emit_bug_reporting_address_printf_0"
+    "emit_bug_reporting_address_printf_0" -> "emit_bug_reporting_address_BasicBlock_0_Tail"
+    "emit_bug_reporting_address_BasicBlock_0_Head" -> "emit_bug_reporting_address_printf_0"
+}

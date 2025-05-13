@@ -1,0 +1,4 @@
+digraph G {
+    "__ofl_lock_BasicBlock_0_Head" -> "__ofl_lock___lock_0"
+    "__ofl_lock___lock_0" -> "__ofl_lock_BasicBlock_0_Tail"
+}

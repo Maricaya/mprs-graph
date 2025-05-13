@@ -1,0 +1,5 @@
+digraph G {
+    "xirealloc_llvm.dbg.declare_0" -> "xirealloc_llvm.dbg.declare_0"
+    "xirealloc_llvm.dbg.declare_0" -> "xirealloc_BasicBlock_0_Tail"
+    "xirealloc_BasicBlock_0_Head" -> "xirealloc_llvm.dbg.declare_0"
+}

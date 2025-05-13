@@ -1,0 +1,5 @@
+digraph G {
+    "ptr_align_llvm.dbg.declare_0" -> "ptr_align_llvm.dbg.declare_0"
+    "ptr_align_llvm.dbg.declare_0" -> "ptr_align_BasicBlock_0_Tail"
+    "ptr_align_BasicBlock_0_Head" -> "ptr_align_llvm.dbg.declare_0"
+}

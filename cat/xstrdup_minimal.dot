@@ -1,0 +1,3 @@
+digraph G {
+    "xstrdup_BasicBlock_0_Head" -> "xstrdup_BasicBlock_0_Tail"
+}

@@ -1,0 +1,8 @@
+digraph G {
+    "refresh_neighbour_lists_BasicBlock_0_Head" -> "refresh_neighbour_lists_BasicBlock_1_LoopHeader"
+    "refresh_neighbour_lists_BasicBlock_7_Head" -> "refresh_neighbour_lists_BasicBlock_8_Tail"
+    "refresh_neighbour_lists_BasicBlock_7_Head" -> "refresh_neighbour_lists_BasicBlock_7_Head"
+    "refresh_neighbour_lists_BasicBlock_1_LoopHeader" -> "refresh_neighbour_lists_BasicBlock_8_Tail"
+    "refresh_neighbour_lists_BasicBlock_1_LoopHeader" -> "refresh_neighbour_lists_BasicBlock_7_Head"
+    "refresh_neighbour_lists_BasicBlock_1_LoopHeader" -> "refresh_neighbour_lists_BasicBlock_1_LoopHeader"
+}

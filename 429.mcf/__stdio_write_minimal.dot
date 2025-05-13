@@ -1,0 +1,10 @@
+digraph G {
+    "__stdio_write_BasicBlock_5_Tail" -> "__stdio_write_BasicBlock_7_Tail"
+    "__stdio_write_BasicBlock_0_Head" -> "__stdio_write_BasicBlock_7_Tail"
+    "__stdio_write_BasicBlock_0_Head" -> "__stdio_write_BasicBlock_3_Tail"
+    "__stdio_write_BasicBlock_4_Head" -> "__stdio_write_BasicBlock_5_Tail"
+    "__stdio_write_BasicBlock_4_Head" -> "__stdio_write_BasicBlock_7_Tail"
+    "__stdio_write_BasicBlock_3_Tail" -> "__stdio_write_BasicBlock_7_Tail"
+    "__stdio_write_BasicBlock_3_Tail" -> "__stdio_write_BasicBlock_4_Head"
+    "__stdio_write_BasicBlock_3_Tail" -> "__stdio_write_BasicBlock_3_Tail"
+}

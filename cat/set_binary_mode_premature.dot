@@ -1,0 +1,6 @@
+digraph G {
+    "set_binary_mode_llvm.dbg.declare_0" -> "set_binary_mode_llvm.dbg.declare_0"
+    "set_binary_mode_llvm.dbg.declare_0" -> "set_binary_mode___gl_setmode_0"
+    "set_binary_mode___gl_setmode_0" -> "set_binary_mode_BasicBlock_0_Tail"
+    "set_binary_mode_BasicBlock_0_Head" -> "set_binary_mode_llvm.dbg.declare_0"
+}

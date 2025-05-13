@@ -1,0 +1,4 @@
+digraph G {
+    "strcpy___stpcpy_0" -> "strcpy_BasicBlock_0_Tail"
+    "strcpy_BasicBlock_0_Head" -> "strcpy___stpcpy_0"
+}

@@ -1,0 +1,3 @@
+digraph G {
+    "__assert_fail_BasicBlock_0_Head" -> "__assert_fail_BasicBlock_0_Tail"
+}

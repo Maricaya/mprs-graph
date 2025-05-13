@@ -1,0 +1,6 @@
+digraph G {
+    "ximalloc_imalloc_0" -> "ximalloc_nonnull_0"
+    "ximalloc_BasicBlock_0_Head" -> "ximalloc_llvm.dbg.declare_0"
+    "ximalloc_llvm.dbg.declare_0" -> "ximalloc_imalloc_0"
+    "ximalloc_nonnull_0" -> "ximalloc_BasicBlock_0_Tail"
+}

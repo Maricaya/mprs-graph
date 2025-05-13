@@ -1,0 +1,14 @@
+digraph G {
+    "primal_start_artificial_BasicBlock_3_Tail" -> "primal_start_artificial_BasicBlock_10_Tail"
+    "primal_start_artificial_BasicBlock_3_Tail" -> "primal_start_artificial_BasicBlock_8_Tail"
+    "primal_start_artificial_BasicBlock_3_Tail" -> "primal_start_artificial_BasicBlock_2_Tail"
+    "primal_start_artificial_BasicBlock_0_Head" -> "primal_start_artificial_BasicBlock_10_Tail"
+    "primal_start_artificial_BasicBlock_0_Head" -> "primal_start_artificial_BasicBlock_8_Tail"
+    "primal_start_artificial_BasicBlock_0_Head" -> "primal_start_artificial_BasicBlock_2_Tail"
+    "primal_start_artificial_BasicBlock_8_Tail" -> "primal_start_artificial_BasicBlock_10_Tail"
+    "primal_start_artificial_BasicBlock_8_Tail" -> "primal_start_artificial_BasicBlock_8_Tail"
+    "primal_start_artificial_BasicBlock_2_Tail" -> "primal_start_artificial_BasicBlock_10_Tail"
+    "primal_start_artificial_BasicBlock_2_Tail" -> "primal_start_artificial_BasicBlock_3_Tail"
+    "primal_start_artificial_BasicBlock_2_Tail" -> "primal_start_artificial_BasicBlock_8_Tail"
+    "primal_start_artificial_BasicBlock_2_Tail" -> "primal_start_artificial_BasicBlock_2_Tail"
+}

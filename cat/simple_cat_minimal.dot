@@ -1,0 +1,10 @@
+digraph G {
+    "simple_cat_BasicBlock_0_Head" -> "simple_cat_llvm.dbg.declare_0"
+    "simple_cat_BasicBlock_4_Tail" -> "simple_cat_BasicBlock_8_Tail"
+    "simple_cat_llvm.dbg.declare_0" -> "simple_cat_llvm.dbg.declare_0"
+    "simple_cat_llvm.dbg.declare_0" -> "simple_cat_BasicBlock_1_Tail"
+    "simple_cat_BasicBlock_1_Tail" -> "simple_cat_BasicBlock_6_Tail"
+    "simple_cat_BasicBlock_1_Tail" -> "simple_cat_BasicBlock_8_Tail"
+    "simple_cat_BasicBlock_1_Tail" -> "simple_cat_BasicBlock_4_Tail"
+    "simple_cat_BasicBlock_1_Tail" -> "simple_cat_BasicBlock_1_Tail"
+}

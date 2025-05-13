@@ -1,0 +1,3 @@
+digraph G {
+    "fprintf_BasicBlock_0_Head" -> "fprintf_BasicBlock_0_Tail"
+}

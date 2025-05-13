@@ -1,0 +1,14 @@
+digraph G {
+    "main_BasicBlock_5_Head" -> "main_BasicBlock_7_Tail"
+    "main_global_opt_4" -> "main_BasicBlock_7_Tail"
+    "main_global_opt_4" -> "main_BasicBlock_5_Head"
+    "main_global_opt_4" -> "main_global_opt_4"
+    "main_printf_2" -> "main_BasicBlock_7_Tail"
+    "main_printf_2" -> "main_BasicBlock_5_Head"
+    "main_printf_2" -> "main_global_opt_4"
+    "main_printf_2" -> "main_printf_2"
+    "main_printf_2" -> "main_BasicBlock_3_Tail"
+    "main_BasicBlock_0_Head" -> "main_BasicBlock_7_Tail"
+    "main_BasicBlock_0_Head" -> "main_printf_2"
+    "main_BasicBlock_3_Tail" -> "main_BasicBlock_7_Tail"
+}

@@ -1,0 +1,5 @@
+digraph G {
+    "xcalloc_llvm.dbg.declare_0" -> "xcalloc_llvm.dbg.declare_0"
+    "xcalloc_llvm.dbg.declare_0" -> "xcalloc_BasicBlock_0_Tail"
+    "xcalloc_BasicBlock_0_Head" -> "xcalloc_llvm.dbg.declare_0"
+}

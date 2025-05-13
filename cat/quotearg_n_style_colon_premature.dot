@@ -1,0 +1,9 @@
+digraph G {
+    "quotearg_n_style_colon_llvm.dbg.declare_0" -> "quotearg_n_style_colon_llvm.dbg.declare_0"
+    "quotearg_n_style_colon_llvm.dbg.declare_0" -> "quotearg_n_style_colon_quoting_options_from_style_0"
+    "quotearg_n_style_colon_llvm.memcpy.p0i8.p0i8.i64_0" -> "quotearg_n_style_colon_set_char_quoting_0"
+    "quotearg_n_style_colon_BasicBlock_0_Head" -> "quotearg_n_style_colon_llvm.dbg.declare_0"
+    "quotearg_n_style_colon_quotearg_n_options_0" -> "quotearg_n_style_colon_BasicBlock_0_Tail"
+    "quotearg_n_style_colon_set_char_quoting_0" -> "quotearg_n_style_colon_quotearg_n_options_0"
+    "quotearg_n_style_colon_quoting_options_from_style_0" -> "quotearg_n_style_colon_llvm.memcpy.p0i8.p0i8.i64_0"
+}

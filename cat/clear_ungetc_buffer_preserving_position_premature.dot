@@ -1,0 +1,10 @@
+digraph G {
+    "clear_ungetc_buffer_preserving_position_BasicBlock_0_Head" -> "clear_ungetc_buffer_preserving_position_llvm.dbg.declare_0"
+    "clear_ungetc_buffer_preserving_position_BasicBlock_1_Head" -> "clear_ungetc_buffer_preserving_position_rpl_fseeko_1"
+    "clear_ungetc_buffer_preserving_position_BasicBlock_2_Head" -> "clear_ungetc_buffer_preserving_position_BasicBlock_2_Tail"
+    "clear_ungetc_buffer_preserving_position_rpl_fseeko_1" -> "clear_ungetc_buffer_preserving_position_BasicBlock_1_Tail"
+    "clear_ungetc_buffer_preserving_position_BasicBlock_1_Tail" -> "clear_ungetc_buffer_preserving_position_BasicBlock_2_Head"
+    "clear_ungetc_buffer_preserving_position_BasicBlock_0_Tail" -> "clear_ungetc_buffer_preserving_position_BasicBlock_1_Head"
+    "clear_ungetc_buffer_preserving_position_BasicBlock_0_Tail" -> "clear_ungetc_buffer_preserving_position_BasicBlock_2_Head"
+    "clear_ungetc_buffer_preserving_position_llvm.dbg.declare_0" -> "clear_ungetc_buffer_preserving_position_BasicBlock_0_Tail"
+}

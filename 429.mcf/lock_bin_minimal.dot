@@ -1,0 +1,12 @@
+digraph G {
+    "lock_bin_BasicBlock_1_Head" -> "lock_bin_BasicBlock_6_Tail"
+    "lock_bin_BasicBlock_1_Head" -> "lock_bin_BasicBlock_5_Head"
+    "lock_bin_BasicBlock_1_Head" -> "lock_bin___wait_3"
+    "lock_bin_BasicBlock_0_Head" -> "lock_bin_BasicBlock_1_Head"
+    "lock_bin_BasicBlock_0_Head" -> "lock_bin_BasicBlock_6_Tail"
+    "lock_bin_BasicBlock_0_Head" -> "lock_bin_BasicBlock_5_Head"
+    "lock_bin_BasicBlock_5_Head" -> "lock_bin_BasicBlock_6_Tail"
+    "lock_bin___wait_3" -> "lock_bin_BasicBlock_6_Tail"
+    "lock_bin___wait_3" -> "lock_bin_BasicBlock_5_Head"
+    "lock_bin___wait_3" -> "lock_bin___wait_3"
+}

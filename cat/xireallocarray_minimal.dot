@@ -1,0 +1,5 @@
+digraph G {
+    "xireallocarray_BasicBlock_0_Head" -> "xireallocarray_llvm.dbg.declare_0"
+    "xireallocarray_llvm.dbg.declare_0" -> "xireallocarray_BasicBlock_0_Tail"
+    "xireallocarray_llvm.dbg.declare_0" -> "xireallocarray_llvm.dbg.declare_0"
+}

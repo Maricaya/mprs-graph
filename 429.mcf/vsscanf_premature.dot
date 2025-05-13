@@ -1,0 +1,7 @@
+digraph G {
+    "vsscanf_vfscanf_0" -> "vsscanf_llvm.lifetime.end.p0i8_0"
+    "vsscanf_BasicBlock_0_Head" -> "vsscanf_llvm.lifetime.start.p0i8_0"
+    "vsscanf_llvm.lifetime.end.p0i8_0" -> "vsscanf_BasicBlock_0_Tail"
+    "vsscanf_llvm.memset.p0i8.i64_0" -> "vsscanf_vfscanf_0"
+    "vsscanf_llvm.lifetime.start.p0i8_0" -> "vsscanf_llvm.memset.p0i8.i64_0"
+}

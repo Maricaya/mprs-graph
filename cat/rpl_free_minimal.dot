@@ -1,0 +1,8 @@
+digraph G {
+    "rpl_free_BasicBlock_0_Head" -> "rpl_free_llvm.dbg.declare_0"
+    "rpl_free_free_0" -> "rpl_free_BasicBlock_0_Tail"
+    "rpl_free_free_0" -> "rpl_free_free_0"
+    "rpl_free_llvm.dbg.declare_0" -> "rpl_free_BasicBlock_0_Tail"
+    "rpl_free_llvm.dbg.declare_0" -> "rpl_free_free_0"
+    "rpl_free_llvm.dbg.declare_0" -> "rpl_free_llvm.dbg.declare_0"
+}

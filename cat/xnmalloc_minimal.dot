@@ -1,0 +1,5 @@
+digraph G {
+    "xnmalloc_BasicBlock_0_Head" -> "xnmalloc_llvm.dbg.declare_0"
+    "xnmalloc_llvm.dbg.declare_0" -> "xnmalloc_llvm.dbg.declare_0"
+    "xnmalloc_llvm.dbg.declare_0" -> "xnmalloc_BasicBlock_0_Tail"
+}

@@ -1,0 +1,3 @@
+digraph G {
+    "__errno_location_BasicBlock_0_Head" -> "__errno_location_BasicBlock_0_Tail"
+}

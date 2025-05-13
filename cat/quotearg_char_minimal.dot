@@ -1,0 +1,5 @@
+digraph G {
+    "quotearg_char_BasicBlock_0_Head" -> "quotearg_char_llvm.dbg.declare_0"
+    "quotearg_char_llvm.dbg.declare_0" -> "quotearg_char_llvm.dbg.declare_0"
+    "quotearg_char_llvm.dbg.declare_0" -> "quotearg_char_BasicBlock_0_Tail"
+}

@@ -1,0 +1,4 @@
+digraph G {
+    "__madvise___syscall_ret_0" -> "__madvise_BasicBlock_0_Tail"
+    "__madvise_BasicBlock_0_Head" -> "__madvise___syscall_ret_0"
+}

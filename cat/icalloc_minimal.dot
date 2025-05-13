@@ -1,0 +1,13 @@
+digraph G {
+    "icalloc_BasicBlock_0_Head" -> "icalloc_llvm.dbg.declare_0"
+    "icalloc_BasicBlock_5_Tail" -> "icalloc_BasicBlock_9_Tail"
+    "icalloc_BasicBlock_5_Tail" -> "icalloc_BasicBlock_8_Tail"
+    "icalloc_BasicBlock_8_Tail" -> "icalloc_BasicBlock_9_Tail"
+    "icalloc_llvm.dbg.declare_0" -> "icalloc_BasicBlock_9_Tail"
+    "icalloc_llvm.dbg.declare_0" -> "icalloc_BasicBlock_5_Tail"
+    "icalloc_llvm.dbg.declare_0" -> "icalloc_BasicBlock_8_Tail"
+    "icalloc_llvm.dbg.declare_0" -> "icalloc_llvm.dbg.declare_0"
+    "icalloc_llvm.dbg.declare_0" -> "icalloc_BasicBlock_3_Tail"
+    "icalloc_BasicBlock_3_Tail" -> "icalloc_BasicBlock_5_Tail"
+    "icalloc_BasicBlock_3_Tail" -> "icalloc_BasicBlock_8_Tail"
+}

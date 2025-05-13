@@ -1,0 +1,8 @@
+digraph G {
+    "insert_new_arc_BasicBlock_0_Head" -> "insert_new_arc_BasicBlock_1_Tail"
+    "insert_new_arc_BasicBlock_2_Head" -> "insert_new_arc_BasicBlock_1_Tail"
+    "insert_new_arc_BasicBlock_2_Head" -> "insert_new_arc_BasicBlock_5_Tail"
+    "insert_new_arc_BasicBlock_1_Tail" -> "insert_new_arc_BasicBlock_2_Head"
+    "insert_new_arc_BasicBlock_1_Tail" -> "insert_new_arc_BasicBlock_1_Tail"
+    "insert_new_arc_BasicBlock_1_Tail" -> "insert_new_arc_BasicBlock_5_Tail"
+}

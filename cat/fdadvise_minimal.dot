@@ -1,0 +1,5 @@
+digraph G {
+    "fdadvise_llvm.dbg.declare_0" -> "fdadvise_BasicBlock_0_Tail"
+    "fdadvise_llvm.dbg.declare_0" -> "fdadvise_llvm.dbg.declare_0"
+    "fdadvise_BasicBlock_0_Head" -> "fdadvise_llvm.dbg.declare_0"
+}

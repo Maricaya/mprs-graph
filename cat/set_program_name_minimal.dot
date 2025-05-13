@@ -1,0 +1,15 @@
+digraph G {
+    "set_program_name_llvm.dbg.declare_0" -> "set_program_name_llvm.dbg.declare_0"
+    "set_program_name_llvm.dbg.declare_0" -> "set_program_name_BasicBlock_10_Tail"
+    "set_program_name_llvm.dbg.declare_0" -> "set_program_name_BasicBlock_6_Tail"
+    "set_program_name_llvm.dbg.declare_0" -> "set_program_name_BasicBlock_1_Tail"
+    "set_program_name_llvm.dbg.declare_0" -> "set_program_name_BasicBlock_3_Head"
+    "set_program_name_BasicBlock_8_Head" -> "set_program_name_BasicBlock_10_Tail"
+    "set_program_name_BasicBlock_6_Tail" -> "set_program_name_BasicBlock_10_Tail"
+    "set_program_name_BasicBlock_6_Tail" -> "set_program_name_BasicBlock_7_Tail"
+    "set_program_name_BasicBlock_0_Head" -> "set_program_name_llvm.dbg.declare_0"
+    "set_program_name_BasicBlock_3_Head" -> "set_program_name_BasicBlock_10_Tail"
+    "set_program_name_BasicBlock_3_Head" -> "set_program_name_BasicBlock_6_Tail"
+    "set_program_name_BasicBlock_7_Tail" -> "set_program_name_BasicBlock_10_Tail"
+    "set_program_name_BasicBlock_7_Tail" -> "set_program_name_BasicBlock_8_Head"
+}

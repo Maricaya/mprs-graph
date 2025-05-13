@@ -1,0 +1,6 @@
+digraph G {
+    "quotearg_mem_quotearg_n_mem_0" -> "quotearg_mem_BasicBlock_0_Tail"
+    "quotearg_mem_BasicBlock_0_Head" -> "quotearg_mem_llvm.dbg.declare_0"
+    "quotearg_mem_llvm.dbg.declare_0" -> "quotearg_mem_quotearg_n_mem_0"
+    "quotearg_mem_llvm.dbg.declare_0" -> "quotearg_mem_llvm.dbg.declare_0"
+}

@@ -1,0 +1,5 @@
+digraph G {
+    "imalloc_BasicBlock_0_Head" -> "imalloc_BasicBlock_3_Tail"
+    "imalloc_BasicBlock_0_Head" -> "imalloc_BasicBlock_2_Head"
+    "imalloc_BasicBlock_2_Head" -> "imalloc_BasicBlock_3_Tail"
+}

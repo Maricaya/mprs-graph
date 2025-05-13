@@ -1,0 +1,6 @@
+digraph G {
+    "quotearg_n_custom_quotearg_n_custom_mem_0" -> "quotearg_n_custom_BasicBlock_0_Tail"
+    "quotearg_n_custom_llvm.dbg.declare_0" -> "quotearg_n_custom_quotearg_n_custom_mem_0"
+    "quotearg_n_custom_llvm.dbg.declare_0" -> "quotearg_n_custom_llvm.dbg.declare_0"
+    "quotearg_n_custom_BasicBlock_0_Head" -> "quotearg_n_custom_llvm.dbg.declare_0"
+}

@@ -1,0 +1,12 @@
+digraph G {
+    "quotearg_buffer_BasicBlock_0_Head" -> "quotearg_buffer_llvm.dbg.declare_0"
+    "quotearg_buffer_llvm.dbg.declare_3" -> "quotearg_buffer_BasicBlock_3_Tail"
+    "quotearg_buffer_llvm.dbg.declare_3" -> "quotearg_buffer_llvm.dbg.declare_3"
+    "quotearg_buffer_llvm.dbg.declare_3" -> "quotearg_buffer_quotearg_buffer_restyled_3"
+    "quotearg_buffer_quotearg_buffer_restyled_3" -> "quotearg_buffer_BasicBlock_3_Tail"
+    "quotearg_buffer_quotearg_buffer_restyled_3" -> "quotearg_buffer_llvm.dbg.declare_3"
+    "quotearg_buffer_llvm.dbg.declare_0" -> "quotearg_buffer_llvm.dbg.declare_3"
+    "quotearg_buffer_llvm.dbg.declare_0" -> "quotearg_buffer_llvm.dbg.declare_0"
+    "quotearg_buffer_llvm.dbg.declare_0" -> "quotearg_buffer_BasicBlock_1_Tail"
+    "quotearg_buffer_BasicBlock_1_Tail" -> "quotearg_buffer_llvm.dbg.declare_3"
+}

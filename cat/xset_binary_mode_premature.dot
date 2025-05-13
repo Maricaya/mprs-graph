@@ -1,0 +1,12 @@
+digraph G {
+    "xset_binary_mode_xset_binary_mode_error_1" -> "xset_binary_mode_BasicBlock_1_Tail"
+    "xset_binary_mode_BasicBlock_1_Tail" -> "xset_binary_mode_BasicBlock_2_Head"
+    "xset_binary_mode_set_binary_mode_0" -> "xset_binary_mode_BasicBlock_0_Tail"
+    "xset_binary_mode_BasicBlock_1_Head" -> "xset_binary_mode_xset_binary_mode_error_1"
+    "xset_binary_mode_BasicBlock_0_Tail" -> "xset_binary_mode_BasicBlock_1_Head"
+    "xset_binary_mode_BasicBlock_0_Tail" -> "xset_binary_mode_BasicBlock_2_Head"
+    "xset_binary_mode_BasicBlock_2_Head" -> "xset_binary_mode_BasicBlock_2_Tail"
+    "xset_binary_mode_llvm.dbg.declare_0" -> "xset_binary_mode_set_binary_mode_0"
+    "xset_binary_mode_llvm.dbg.declare_0" -> "xset_binary_mode_llvm.dbg.declare_0"
+    "xset_binary_mode_BasicBlock_0_Head" -> "xset_binary_mode_llvm.dbg.declare_0"
+}

@@ -1,0 +1,8 @@
+digraph G {
+    "mbsinit_BasicBlock_1_Tail" -> "mbsinit_BasicBlock_2_Head"
+    "mbsinit_BasicBlock_1_Head" -> "mbsinit_BasicBlock_1_Tail"
+    "mbsinit_BasicBlock_2_Head" -> "mbsinit_BasicBlock_2_Tail"
+    "mbsinit_BasicBlock_0_Tail" -> "mbsinit_BasicBlock_1_Head"
+    "mbsinit_BasicBlock_0_Tail" -> "mbsinit_BasicBlock_2_Head"
+    "mbsinit_BasicBlock_0_Head" -> "mbsinit_BasicBlock_0_Tail"
+}

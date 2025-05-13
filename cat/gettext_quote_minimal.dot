@@ -1,0 +1,11 @@
+digraph G {
+    "gettext_quote_llvm.dbg.declare_0" -> "gettext_quote_llvm.dbg.declare_0"
+    "gettext_quote_llvm.dbg.declare_0" -> "gettext_quote_BasicBlock_7_Tail"
+    "gettext_quote_llvm.dbg.declare_0" -> "gettext_quote_locale_charset_2"
+    "gettext_quote_BasicBlock_6_Tail" -> "gettext_quote_BasicBlock_7_Tail"
+    "gettext_quote_BasicBlock_3_Tail" -> "gettext_quote_BasicBlock_7_Tail"
+    "gettext_quote_locale_charset_2" -> "gettext_quote_BasicBlock_7_Tail"
+    "gettext_quote_locale_charset_2" -> "gettext_quote_BasicBlock_6_Tail"
+    "gettext_quote_locale_charset_2" -> "gettext_quote_BasicBlock_3_Tail"
+    "gettext_quote_BasicBlock_0_Head" -> "gettext_quote_llvm.dbg.declare_0"
+}

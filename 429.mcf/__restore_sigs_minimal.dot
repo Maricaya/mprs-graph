@@ -1,0 +1,3 @@
+digraph G {
+    "__restore_sigs_BasicBlock_0_Head" -> "__restore_sigs_BasicBlock_0_Tail"
+}

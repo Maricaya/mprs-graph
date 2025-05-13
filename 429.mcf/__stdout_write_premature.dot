@@ -1,0 +1,14 @@
+digraph G {
+    "__stdout_write_BasicBlock_3_Head" -> "__stdout_write___stdio_write_3"
+    "__stdout_write_llvm.lifetime.end.p0i8_3" -> "__stdout_write_BasicBlock_3_Tail"
+    "__stdout_write_BasicBlock_0_Tail" -> "__stdout_write_BasicBlock_3_Head"
+    "__stdout_write_BasicBlock_0_Tail" -> "__stdout_write_BasicBlock_1_Head"
+    "__stdout_write_BasicBlock_1_Tail" -> "__stdout_write_BasicBlock_3_Head"
+    "__stdout_write_BasicBlock_1_Tail" -> "__stdout_write_BasicBlock_2_Head"
+    "__stdout_write_BasicBlock_1_Head" -> "__stdout_write_BasicBlock_1_Tail"
+    "__stdout_write_llvm.lifetime.start.p0i8_0" -> "__stdout_write_BasicBlock_0_Tail"
+    "__stdout_write_BasicBlock_2_Head" -> "__stdout_write_BasicBlock_2_Tail"
+    "__stdout_write_BasicBlock_0_Head" -> "__stdout_write_llvm.lifetime.start.p0i8_0"
+    "__stdout_write_BasicBlock_2_Tail" -> "__stdout_write_BasicBlock_3_Head"
+    "__stdout_write___stdio_write_3" -> "__stdout_write_llvm.lifetime.end.p0i8_3"
+}

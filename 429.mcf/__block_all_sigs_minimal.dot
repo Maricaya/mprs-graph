@@ -1,0 +1,3 @@
+digraph G {
+    "__block_all_sigs_BasicBlock_0_Head" -> "__block_all_sigs_BasicBlock_0_Tail"
+}

@@ -1,0 +1,3 @@
+digraph G {
+    "strnlen_BasicBlock_0_Head" -> "strnlen_BasicBlock_0_Tail"
+}

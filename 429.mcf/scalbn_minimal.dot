@@ -1,0 +1,13 @@
+digraph G {
+    "scalbn_BasicBlock_0_Head" -> "scalbn_BasicBlock_6_Tail"
+    "scalbn_BasicBlock_0_Head" -> "scalbn_llvm.experimental.constrained.fmul.f64_4"
+    "scalbn_BasicBlock_0_Head" -> "scalbn_BasicBlock_1_Head"
+    "scalbn_llvm.experimental.constrained.fmul.f64_4" -> "scalbn_BasicBlock_6_Tail"
+    "scalbn_llvm.experimental.constrained.fmul.f64_4" -> "scalbn_llvm.experimental.constrained.fmul.f64_4"
+    "scalbn_llvm.experimental.constrained.fmul.f64_4" -> "scalbn_llvm.experimental.constrained.fmul.f64_5"
+    "scalbn_llvm.experimental.constrained.fmul.f64_2" -> "scalbn_BasicBlock_6_Tail"
+    "scalbn_llvm.experimental.constrained.fmul.f64_5" -> "scalbn_BasicBlock_6_Tail"
+    "scalbn_llvm.experimental.constrained.fmul.f64_5" -> "scalbn_llvm.experimental.constrained.fmul.f64_5"
+    "scalbn_BasicBlock_1_Head" -> "scalbn_BasicBlock_6_Tail"
+    "scalbn_BasicBlock_1_Head" -> "scalbn_llvm.experimental.constrained.fmul.f64_2"
+}

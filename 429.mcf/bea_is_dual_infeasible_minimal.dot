@@ -1,0 +1,10 @@
+digraph G {
+    "bea_is_dual_infeasible_BasicBlock_3_Head" -> "bea_is_dual_infeasible_BasicBlock_4_Tail"
+    "bea_is_dual_infeasible_BasicBlock_0_Head" -> "bea_is_dual_infeasible_BasicBlock_3_Head"
+    "bea_is_dual_infeasible_BasicBlock_0_Head" -> "bea_is_dual_infeasible_BasicBlock_1_Tail"
+    "bea_is_dual_infeasible_BasicBlock_0_Head" -> "bea_is_dual_infeasible_BasicBlock_4_Tail"
+    "bea_is_dual_infeasible_BasicBlock_1_Tail" -> "bea_is_dual_infeasible_BasicBlock_3_Head"
+    "bea_is_dual_infeasible_BasicBlock_1_Tail" -> "bea_is_dual_infeasible_BasicBlock_5_Tail"
+    "bea_is_dual_infeasible_BasicBlock_1_Tail" -> "bea_is_dual_infeasible_BasicBlock_4_Tail"
+    "bea_is_dual_infeasible_BasicBlock_4_Tail" -> "bea_is_dual_infeasible_BasicBlock_5_Tail"
+}

@@ -1,0 +1,16 @@
+digraph G {
+    "rpl_fclose_llvm.dbg.declare_0" -> "rpl_fclose_llvm.dbg.declare_0"
+    "rpl_fclose_llvm.dbg.declare_0" -> "rpl_fclose_BasicBlock_9_Tail"
+    "rpl_fclose_llvm.dbg.declare_0" -> "rpl_fclose_BasicBlock_3_Head"
+    "rpl_fclose_llvm.dbg.declare_0" -> "rpl_fclose_BasicBlock_4_Head"
+    "rpl_fclose_BasicBlock_0_Head" -> "rpl_fclose_llvm.dbg.declare_0"
+    "rpl_fclose_BasicBlock_5_Tail" -> "rpl_fclose_BasicBlock_9_Tail"
+    "rpl_fclose_BasicBlock_5_Tail" -> "rpl_fclose_BasicBlock_7_Tail"
+    "rpl_fclose_BasicBlock_3_Head" -> "rpl_fclose_BasicBlock_9_Tail"
+    "rpl_fclose_BasicBlock_3_Head" -> "rpl_fclose_BasicBlock_7_Tail"
+    "rpl_fclose_BasicBlock_3_Head" -> "rpl_fclose_BasicBlock_4_Head"
+    "rpl_fclose_BasicBlock_7_Tail" -> "rpl_fclose_BasicBlock_9_Tail"
+    "rpl_fclose_BasicBlock_4_Head" -> "rpl_fclose_BasicBlock_9_Tail"
+    "rpl_fclose_BasicBlock_4_Head" -> "rpl_fclose_BasicBlock_5_Tail"
+    "rpl_fclose_BasicBlock_4_Head" -> "rpl_fclose_BasicBlock_7_Tail"
+}

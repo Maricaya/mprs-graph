@@ -1,0 +1,4 @@
+digraph G {
+    "emit_stdin_note_fputs_unlocked_0" -> "emit_stdin_note_BasicBlock_0_Tail"
+    "emit_stdin_note_BasicBlock_0_Head" -> "emit_stdin_note_fputs_unlocked_0"
+}
